@@ -17,13 +17,13 @@ public class Main {
         try {
             cuenta1.retirar(2300);
         } catch (Exception e) {
-            System.out.print("Fallo al retirar");
+            System.out.print("Error al retirar");
         }
         try {
             System.out.println("Ingreso en cuenta");
             cuenta1.ingresar(695);
         } catch (Exception e) {
-            System.out.print("Fallo al ingresar");
+            System.out.print("Error al ingresar");
         }
         return 0;
         
