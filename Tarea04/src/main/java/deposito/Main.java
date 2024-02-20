@@ -1,7 +1,16 @@
 package deposito;
 
+/**
+ * 
+ * @author AitorMF
+ * since 20/02/2024
+ */
 public class Main {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
@@ -27,5 +36,11 @@ public class Main {
         }
         return 0;
         
+    }
+
+    private static class cantidad {
+
+        public cantidad() {
+        }
     }
 }
